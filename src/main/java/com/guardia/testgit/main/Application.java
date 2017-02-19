@@ -7,7 +7,7 @@ public class Application {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Salut ca marche");
+		System.out.println("Hello it works");
 
 	}
 
