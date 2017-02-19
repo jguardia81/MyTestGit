@@ -1,6 +1,7 @@
 package com.guardia.testgit.main;
 
 import com.guardia.testgit.operations.Multiply;
+import com.guardia.testgit.operations.Power;
 import com.guardia.testgit.operations.SquareRoot;
 import com.guardia.testgit.operations.Substract;
 import com.guardia.testgit.operations.Addition;
