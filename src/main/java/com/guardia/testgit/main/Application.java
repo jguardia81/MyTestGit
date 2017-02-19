@@ -7,6 +7,10 @@ public class Application {
 	}
 
 	public static void main(String[] args) {
+		displayMessage();
+	}
+	
+	private static void displayMessage() {
 		System.out.println("Hello it works");
 
 	}
