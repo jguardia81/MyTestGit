@@ -1,10 +1,10 @@
-package com.guardia.testgit.test;
+package com.guardia.mytestgit.test;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.guardia.testgit.operation.Addition;
+import com.guardia.testgit.operations.Addition;
 
 public class TestAddition {
 

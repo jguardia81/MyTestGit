@@ -1,4 +1,4 @@
-package com.guardia.testgit.operation;
+package com.guardia.testgit.operations;
 
 public class Addition {
 
