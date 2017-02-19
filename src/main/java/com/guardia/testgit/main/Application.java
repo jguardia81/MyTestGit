@@ -3,6 +3,7 @@ package com.guardia.testgit.main;
 import com.guardia.testgit.operations.Multiply;
 
 import com.guardia.testgit.operations.Addition;
+import com.guardia.testgit.operations.Divide;
 
 public class Application {
 
@@ -13,9 +14,11 @@ public class Application {
 	public static void main(String[] args) {
 		displayMessage();
 		Multiply mul = new Multiply();
-		System.out.println(" 2*3 "+ mul.doMultiply(2, 3));
+		System.out.println(" 2*3 = "+ mul.doMultiply(2, 3));
 		Addition addition = new Addition(); 
-		System.out.println(" 3+4 " + addition.doAdd(3,4));
+		System.out.println(" 3+4 = " + addition.doAdd(3,4));
+		Divide divide= new Divide();
+		System.out.println(" 6/3 = "+ divide.divide(6, 3) );
 	}
 	
 	private static void displayMessage() {
