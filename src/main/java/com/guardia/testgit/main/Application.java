@@ -1,5 +1,7 @@
 package com.guardia.testgit.main;
 
+import com.guardia.testgit.operation.Addition;
+
 public class Application {
 
 	public Application() {
@@ -8,6 +10,8 @@ public class Application {
 
 	public static void main(String[] args) {
 		displayMessage();
+		Addition addition = new Addition(); 
+		System.out.println(" 3+ 4" + addition.doAdd(3,4));
 	}
 	
 	private static void displayMessage() {
