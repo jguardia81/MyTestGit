@@ -10,7 +10,7 @@ import com.guardia.testgit.operations.Substract;
 
 import junit.framework.Assert;
 
-public class testSubstract {
+public class TestSubstract {
 
 	private Substract testSub = null;
 	@Before
