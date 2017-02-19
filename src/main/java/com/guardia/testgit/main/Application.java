@@ -17,7 +17,7 @@ public class Application {
 		Addition addition = new Addition(); 
 		System.out.println(" 3+4 " + addition.doAdd(3,4));
 		Substract substract = new Substract();
-		System.out.println("12-5"+substract.doSub(12, 5));
+		System.out.println(" 12-5 "+substract.doSub(12, 5));
 	}
 	
 	private static void displayMessage() {
