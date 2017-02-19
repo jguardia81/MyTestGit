@@ -24,6 +24,8 @@ public class Application {
 		System.out.println(" 12-5 = " + substract.doSub(12, 5));
 		SquareRoot sqr = new SquareRoot();
 		System.out.println(" SquareRoot (2 = "+ sqr.doSquareRoot(2));
+		Power pow= new Power();
+		System.out.println("Power (4,2) = "+pow.doPower(4, 2));
 	}
 	
 	private static void displayMessage() {
