@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.guardia.mytestgit.test;
+package com.guardia.testgit.operations;
 
 /**
  * @author jean
@@ -16,7 +16,7 @@ public class SquareRoot {
 		// TODO Auto-generated constructor stub
 	}
 	
-	double doSquareRoot(double a) {
+	public double doSquareRoot(double a) {
 		return Math.sqrt(a);
 	}
 
