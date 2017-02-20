@@ -1,6 +1,8 @@
 package com.guardia.testgit.main;
 
 import com.guardia.testgit.operations.Multiply;
+import com.guardia.testgit.operations.Power;
+import com.guardia.testgit.operations.SquareRoot;
 import com.guardia.testgit.operations.Substract;
 import com.guardia.testgit.operations.Addition;
 import com.guardia.testgit.operations.Divide;
@@ -21,6 +23,10 @@ public class Application {
 		System.out.println(" 6/3 = " + divide.divide(6, 3) );
 		Substract substract = new Substract();
 		System.out.println(" 12-5 = " + substract.doSub(12, 5));
+		SquareRoot sqr = new SquareRoot();
+		System.out.println(" SquareRoot (2 = "+ sqr.doSquareRoot(2));
+		Power pow= new Power();
+		System.out.println("Power (4,2) = "+pow.doPower(4, 2));
 	}
 	
 	private static void displayMessage() {
